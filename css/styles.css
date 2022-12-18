@@ -10,6 +10,7 @@
 :root {
     --clr-navy-blue: #2E2F42;
     --clr-slate: #434455;
+    --clr-light-slate: #8E8F99;
     --clr-iris: #4D5AE5;
     --clr-white: #ffffff;
     --clr-cloud: #F4F4FD;
@@ -291,6 +292,7 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0 0 8px 0;
+    padding: 0;
 }
 
 .img-qualit-icon {
@@ -328,6 +330,35 @@ body {
     align-items: center;
     margin: 32px 0 0 0;
 }
+
+
+/* Customers Section Styles */
+
+.customer-card {
+    border: 1px solid var(--clr-light-slate);
+    border-radius: 4px;
+    fill: var(--clr-light-slate);
+    width: 168px;
+    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.customer-card:hover, 
+.customer-card:focus {
+    border: 1px solid var(--clr-iris);
+    fill: var(--clr-iris);
+}
+
+.customer-logo {
+    width: 104px;
+    height: 56px;
+}
+
 
 
 
