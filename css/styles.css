@@ -15,6 +15,7 @@
     --clr-white: #ffffff;
     --clr-cloud: #F4F4FD;
     --clr-cornflower: #E7E9FC;
+    --clr-success: #31D0AA;
     --font-logo: 'Raleway', sans-serif;
     --font-main: 'Roboto', sans-serif
 }
@@ -198,6 +199,10 @@ body {
     padding: 0;
 }
 
+.footer-flex {
+    display: flex;
+}
+
 .footer-logo {
     font-family: var(--font-logo);
     font-weight: 800;
@@ -217,6 +222,37 @@ body {
     margin: 16px 0 0 0;
 }
 
+.sm-links-foot-box {
+    margin: 0 0 0 120px;
+    padding: 0;
+}
+
+.footer-subtitle {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--clr-white);
+    margin: 0;
+    padding: 0;
+}
+
+.foot-icons-list {
+    display: flex;
+    list-style-type: none;
+    margin: 16px 0 0 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.foot-sm-icon {
+    fill: rgba(255, 255, 255, 0.1);
+}
+
+.foot-sm-icon:hover, 
+.foot-sm-icon:focus {
+    fill: var(--clr-success);
+}
 
 
 
