@@ -265,7 +265,13 @@ body {
 
 .hero-box {
     background-color: var(--clr-navy-blue);
-    background-image: url(../images/hero-bgd.jpg);
+    background-image: 
+    linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero-bgd.jpg);
     background-repeat: no-repeat;
     background-position: center;
     margin: 0;
@@ -273,6 +279,7 @@ body {
     display: flex;
     justify-content: center;
 }
+
 
 .hero-content-box {
     display: flex;
@@ -465,6 +472,11 @@ body {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
     margin: 0;
     padding: 0;
+}
+
+.port-item:hover, 
+.port-item:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .port-item-textbox {
